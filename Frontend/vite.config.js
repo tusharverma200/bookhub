@@ -4,4 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  server: {
+    proxy: {
+      '/book': 'https://bookhub-ycew.vercel.app', // Proxy API requests
+    },
+  },
 })
