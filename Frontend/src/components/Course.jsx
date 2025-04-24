@@ -7,7 +7,7 @@ function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("https://bookhub-ruby.vercel.app/book");
+        const res = await axios.get("http://localhost:5000/book");
         console.log(res.data);
         setBook(res.data);
       } catch (error) {

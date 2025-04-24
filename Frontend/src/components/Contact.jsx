@@ -19,7 +19,7 @@ const ContactUs = () => {
         };
         console.log(userInfo)
         await axios
-            .post("https://bookhub-ruby.vercel.app/query", userInfo)
+            .post("http://localhost:5000/query", userInfo)
             .then((res) => {
                 console.log(res.data);
                 if (res.data) {
@@ -38,20 +38,20 @@ const ContactUs = () => {
 
     return (
         <div className="container mx-auto px-4 py-8 my-12">
-            <h1 className="text-3xl font-bold mb-4 text-center text-white">Contact Us</h1>
-            <p className="mb-4 text-lg leading-relaxed text-white">
+            <h1 className="text-3xl font-bold mb-4 text-center dark:text-white">Contact Us</h1>
+            <p className="mb-4 text-lg leading-relaxed dark:text-white">
                 We'd love to hear from you! Whether you have questions about our e-library, need assistance, or just want to share feedback, feel free to get in touch.
             </p>
             <div className="contact-info mb-4">
                 <h2 className="text-2xl font-semibold mb-2">Our Contact Details</h2>
-                <p className="text-lg text-white">Email: <a href="mailto:contact@yourlibrary.com" className="text-blue-500">contact@yourlibrary.com</a></p>
-                <p className="text-lg text-white">Phone: <a href="tel:+1234567890" className="text-blue-500">+1 (234) 567-890</a></p>
+                <p className="text-lg dark:text-white">Email: <a href="mailto:contact@yourlibrary.com" className="text-blue-500">contact@yourlibrary.com</a></p>
+                <p className="text-lg dark:text-white">Phone: <a href="tel:+1234567890" className="text-blue-500">+1 (234) 567-890</a></p>
             </div>
             <div className="contact-form">
                 <h2 className="text-2xl font-semibold mb-2">Send Us a Message</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="mb-4">
-                        <label className="block text-lg text-white mb-1" htmlFor="name">Name:</label>
+                        <label className="block text-lg dark:text-white mb-1" htmlFor="name">Name:</label>
                         <input
                             type="text"
                             id="name"
@@ -62,7 +62,7 @@ const ContactUs = () => {
                         {errors.name && <p className="text-red-500 text-sm">{errors.name.message}</p>}
                     </div>
                     <div className="mb-4">
-                        <label className="block text-lg text-white mb-1" htmlFor="email">Email:</label>
+                        <label className="block text-lg dark:text-white mb-1" htmlFor="email">Email:</label>
                         <input
                             type="email"
                             id="email"
@@ -73,7 +73,7 @@ const ContactUs = () => {
                         {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
                     </div>
                     <div className="mb-4">
-                        <label className="block text-lg text-white mb-1" htmlFor="message">Message:</label>
+                        <label className="block text-lg dark:text-white mb-1" htmlFor="message">Message:</label>
                         <textarea
                             id="message"
                             name="message"
@@ -83,7 +83,7 @@ const ContactUs = () => {
                         />
                         {errors.message && <p className="text-red-500 text-sm">{errors.message.message}</p>}
                     </div>
-                    <button type="submit" className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">
+                    <button type="submit" className="bg-blue-500 dark:text-white p-2 rounded hover:bg-blue-600">
                         Send Message
                     </button>
                 </form>

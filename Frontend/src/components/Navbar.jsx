@@ -90,7 +90,10 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">bookhub</a>
+            <a href="/" className="flex items-center space-x-2">
+              <img width="48" height="48" src="https://img.icons8.com/color-glass/48/books.png" alt="books" />
+              <p className=" text-2xl font-bold cursor-pointer">bookhub</p>
+            </a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">

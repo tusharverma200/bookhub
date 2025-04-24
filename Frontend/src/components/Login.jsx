@@ -16,7 +16,7 @@ function Login() {
       password: data.password,
     };
     await axios
-      .post("https://bookhub-ruby.vercel.app/user/login", userInfo)
+      .post("http://localhost:5000/user/login", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
@@ -32,7 +32,7 @@ function Login() {
         if (err.response) {
           console.log(err);
           toast.error("Error: " + err.response.data.message);
-          setTimeout(() => {}, 2000);
+          setTimeout(() => { }, 2000);
         }
       });
   };

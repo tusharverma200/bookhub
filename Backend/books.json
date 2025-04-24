@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Security as Code",
+        "title": "DevSecOps Patterns with AWS",
+        "subtitle": "Practical security strategies for cloud-based DevOps",
+        "authors": "BK Sarthak Das, Virginia Chu",
+        "image": "https://www.dbooks.org/img/books/1098127463s.jpg",
+        "download": "https://www.dbooks.org/security-as-code-1098127463/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Financing Investment in Times of High Public Debt",
+        "title": "2023 European Public Investment Outlook",
+        "subtitle": "Strategies for financing investment amidst economic challenges",
+        "authors": "Floriana Cerniglia, Francesco Saraceno, Andrew Watt",
+        "image": "https://www.dbooks.org/img/books/1805112015s.jpg",
+        "download": "https://www.dbooks.org/financing-investment-in-times-of-high-public-debt-1805112015/",
+        "price": 20,
+        "category": "Paid"
+    },
+    {
+        "name": "ASP.NET Core 6 Succinctly",
+        "title": "",
+        "subtitle": "A quick guide to mastering ASP.NET Core 6",
+        "authors": "Dirk Strauss",
+        "image": "https://www.dbooks.org/img/books/164200233Xs.jpg",
+        "download": "https://www.dbooks.org/aspnet-core-6-succinctly-164200233x/",
+        "price": 10,
+        "category": "Paid"
+    },
+    {
+        "name": "Engineering Systems Dynamics, Modelling, Simulation, and Design",
+        "title": "Lagrangian and Bond Graph Methods",
+        "subtitle": "Advanced techniques for modeling dynamic systems",
+        "authors": "Mehrzad Tabatabaian",
+        "image": "https://www.dbooks.org/img/books/199013209Xs.jpg",
+        "download": "https://www.dbooks.org/engineering-systems-dynamics-modelling-simulation-and-design-199013209x/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Build a Raspberry Pi Media Player",
+        "title": "Power up your TV and music system",
+        "subtitle": "Step-by-step guide to building a home media hub",
+        "authors": "PJ Evans",
+        "image": "https://www.dbooks.org/img/books/5709901124s.jpg",
+        "download": "https://www.dbooks.org/build-a-raspberry-pi-media-player-5709901124/",
+        "price": 30,
+        "category": "Paid"
+    },
+    {
+        "name": "The Official Raspberry Pi Handbook 2023",
+        "title": "",
+        "subtitle": "Comprehensive guide to the Raspberry Pi 2023 edition",
+        "authors": "David Crookes, PJ Evans, Rosie Hattersley, Phil King, Nicola King, KG Orphanides, Nik Rawlinson, Mark Vanstone",
+        "image": "https://www.dbooks.org/img/books/191204742Xs.jpg",
+        "download": "https://www.dbooks.org/the-official-raspberry-pi-handbook-2023-191204742x/",
+        "price": 20,
+        "category": "Paid"
+    },
+    {
+        "name": "Pay for Play",
+        "title": "How the Music Industry Works, Where the Money Goes, and Why",
+        "subtitle": "An in-depth look into the financial mechanics of the music industry",
+        "authors": "Larry Wayte",
+        "image": "https://www.dbooks.org/img/books/5685804586s.jpg",
+        "download": "https://www.dbooks.org/pay-for-play-5685804586/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Azure Bot Service Succinctly",
+        "title": "",
+        "subtitle": "A brief yet powerful guide to mastering Azure Bot Service",
+        "authors": "Ed Freitas",
+        "image": "https://www.dbooks.org/img/books/1642002275s.jpg",
+        "download": "https://www.dbooks.org/azure-bot-service-succinctly-1642002275/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Introductory Algebra",
+        "title": "",
+        "subtitle": "Essential concepts for understanding algebra",
+        "authors": "Anne Gloag, Andrew Gloag, Melissa Kramer",
+        "image": "https://www.dbooks.org/img/books/1607826593s.jpg",
+        "download": "https://www.dbooks.org/introductory-algebra-1607826593/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Managing Cloud Native Data on Kubernetes",
+        "title": "Architecting Cloud Native Data Services Using Open Source Technology",
+        "subtitle": "Practical steps to manage data in cloud-native environments",
+        "authors": "Jeff Carpenter, Patrick McFadin",
+        "image": "https://www.dbooks.org/img/books/1098111389s.jpg",
+        "download": "https://www.dbooks.org/managing-cloud-native-data-on-kubernetes-1098111389/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "An Introduction to C & GUI Programming",
+        "title": "",
+        "subtitle": "A beginner's guide to C programming and graphical user interfaces",
+        "authors": "Simon Long",
+        "image": "https://www.dbooks.org/img/books/1912047446s.jpg",
+        "download": "https://www.dbooks.org/an-introduction-to-c-gui-programming-1912047446/",
+        "price": 20,
+        "category": "Paid"
+    },
+    {
+        "name": "Contemporary Mathematics",
+        "title": "",
+        "subtitle": "A modern approach to solving mathematical problems",
+        "authors": "Donna Kirk",
+        "image": "https://www.dbooks.org/img/books/1711470546s.jpg",
+        "download": "https://www.dbooks.org/contemporary-mathematics-1711470546/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "The Last Man Who Knew Everything",
+        "title": "Thomas Young",
+        "subtitle": "The life and legacy of Thomas Young, a true polymath",
+        "authors": "Andrew Robinson",
+        "image": "https://www.dbooks.org/img/books/1805110195s.jpg",
+        "download": "https://www.dbooks.org/the-last-man-who-knew-everything-1805110195/",
+        "price": 30,
+        "category": "Paid"
+    },
+    {
+        "name": "HackSpace Magazine: Issue 65",
+        "title": "April 2023",
+        "subtitle": "Latest insights from the world of hacking and DIY projects",
+        "authors": "HackSpace Team",
+        "image": "https://www.dbooks.org/img/books/5685527822s.jpg",
+        "download": "https://www.dbooks.org/hackspace-magazine-issue-65-5685527822/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Intro to Social Media",
+        "title": "",
+        "subtitle": "A beginner's guide to social media platforms and strategies",
+        "authors": "Cheryl Lawson",
+        "image": "https://www.dbooks.org/img/books/5685535457s.jpg",
+        "download": "https://www.dbooks.org/intro-to-social-media-5685535457/",
+        "price": 10,
+        "category": "Paid"
+    },
+    {
+        "name": "HackSpace magazine: Issue 64",
+        "title": "March 2023",
+        "subtitle": "HackSpace's March issue with new DIY project ideas",
+        "authors": "HackSpace Team",
+        "image": "https://www.dbooks.org/img/books/5679752518s.jpg",
+        "download": "https://www.dbooks.org/hackspace-magazine-issue-64-5679752518/",
+        "price": 10,
+        "category": "Paid"
+    },
+    {
+        "name": "Introduction to Mechanical Engineering Design",
+        "title": "",
+        "subtitle": "Fundamentals of mechanical engineering and design principles",
+        "authors": "Jacqulyn A. Baughman",
+        "image": "https://www.dbooks.org/img/books/5679742652s.jpg",
+        "download": "https://www.dbooks.org/introduction-to-mechanical-engineering-design-5679742652/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Svelte Succinctly",
+        "title": "",
+        "subtitle": "A concise guide to mastering Svelte",
+        "authors": "Ed Freitas",
+        "image": "https://www.dbooks.org/img/books/1642002305s.jpg",
+        "download": "https://www.dbooks.org/svelte-succinctly-1642002305/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Introduction to Systems Biology",
+        "title": "Workbook for Flipped-classroom Teaching",
+        "subtitle": "Interactive workbook for teaching systems biology concepts",
+        "authors": "Thomas Sauter, Marco Albrecht",
+        "image": "https://www.dbooks.org/img/books/1800644124s.jpg",
+        "download": "https://www.dbooks.org/introduction-to-systems-biology-1800644124/",
+        "price": 0,
+        "category": "Free"
+    },
+    {
+        "name": "Blockchain For Dummies",
+        "title": "",
+        "subtitle": "A simple introduction to blockchain technology",
+        "authors": "Manav Gupta",
+        "image": "https://www.dbooks.org/img/books/111954601Xs.jpg",
+        "download": "https://www.dbooks.org/blockchain-for-dummies-111954601x/",
+        "price": 0,
+        "category": "Free"
+    }
+]

@@ -21,7 +21,7 @@ function Signup() {
       password: data.password,
     };
     await axios
-      .post("https://bookhub-ruby.vercel.app/user/signup", userInfo)
+      .post("http://localhost:5000/user/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
