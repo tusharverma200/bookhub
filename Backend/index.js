@@ -8,7 +8,13 @@ import userRoute from "./route/user.route.js";
 import queryRoute from "./route/query.route.js"
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: ['http://localhost:5173', 'https://your-frontend-domain.com'], // Add your frontend URLs
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
+    optionsSuccessStatus: 200
+}));
+
 app.use(express.json());
 
 dotenv.config();

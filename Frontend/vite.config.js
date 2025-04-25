@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/book': 'https://bookhub-ycew.vercel.app', // Proxy API requests
+      '/book': 'https://bookhub-ruby.vercel.app', // Proxy API requests
     },
   },
 })
