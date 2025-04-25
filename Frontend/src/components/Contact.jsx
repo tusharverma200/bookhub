@@ -19,7 +19,7 @@ const ContactUs = () => {
         };
         console.log(userInfo)
         await axios
-            .post("http://localhost:5000/query", userInfo)
+            .post("https://bookhub-e3ud.vercel.app/query", userInfo)
             .then((res) => {
                 console.log(res.data);
                 if (res.data) {
