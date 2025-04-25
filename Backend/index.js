@@ -9,12 +9,15 @@ import queryRoute from "./route/query.route.js"
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://your-frontend-domain.com'], // Add your frontend URLs
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    origin: '*', // Allow all origins for now
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
     credentials: true,
     optionsSuccessStatus: 200
 }));
 
+// Handle OPTIONS requests (preflight)
+app.options('*', cors());
 app.use(express.json());
 
 dotenv.config();
@@ -32,7 +35,10 @@ try {
 } catch (error) {
     console.log("Error: ", error);
 }
-
+// Add a root route for testing
+app.get('/', (req, res) => {
+    res.send('BookStore API is running');
+});
 // defining routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
